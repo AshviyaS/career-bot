@@ -11,7 +11,7 @@ GEMINI_KEY = os.getenv("GEMINI_API_KEY")
 
 # 2. Initialize Gemini Client
 # The key must be a string. Ensure your .env has GEMINI_API_KEY=AIza...
-client = genai.Client(api_key="AIzaSyAg7B0HlFEZOhqRbotp2NfgRX0BH1DSd3Y")
+client = genai.Client(api_key="enter_your_api_key_here")  # Replace with your actual key
 
 app = FastAPI()
 
