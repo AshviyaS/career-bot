@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-purple: #7c3aed;
+  --color-brand-blue: #3b82f6;
+}
+
+:root {
+  background-color: #050505; /* Deep futuristic black */
+  color: white;
+}
+
+/* This makes the scrollbar look elegant and thin */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 10px;
+}
